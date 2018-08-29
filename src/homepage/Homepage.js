@@ -9,7 +9,7 @@ import import_icon from '../../dist/images/import_icon.svg'
 import export_icon from '../../dist/images/export_icon.svg';
 import custom_icon from '../../dist/images/custom_icon.svg';
 import warehouse_icon from '../../dist/images/warehouse_icon.svg';
-import forms_icon from '../../dist/images/import_icon.svg';
+import forms_icon from '../../dist/images/forms_icon.svg';
 
 class Homepage extends React.Component{
 
@@ -63,7 +63,7 @@ class Homepage extends React.Component{
                        <li><a href="#export"></a> <img className="exporticon" img src={export_icon} /> Export Process </li>
                        <li><a href="#custom"></a> <img className="customicon" img src={custom_icon} /> Custom Consulting </li>
                        <li><a href="#warehouse"></a> <img className="warehouseicon" img src={warehouse_icon} /> Warehouse </li>
-                       <li><a href="#forms"></a> <img className="formsicon" img src={import_icon} /> Forms</li>
+                       <li><a href="#forms"></a> <img className="formsicon" img src={forms_icon} /> Forms</li>
                    </ul>
 
                    <ul className="right-services-column">
