@@ -69,6 +69,11 @@ html, body{
     background-color: #B3B3B3;
     padding-top: 25px;
     text-align: center;
+    padding-bottom: 20px;
+}
+
+.p_welcome{
+    font-size: 14px;
 }
 
 .homepage-logo .bsglogo{
@@ -77,6 +82,8 @@ html, body{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 
@@ -90,6 +97,17 @@ html, body{
     height: 20px;
 }
 
+.homepage-body img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.homepage-body img:hover{
+    cursor: pointer;
+
+}
+
 
 .left-services-column{
     width: 45%;
@@ -98,7 +116,7 @@ html, body{
     line-height: 25px;
     float: left;
     color: black;
-
+    font-size: 30px;
 }
 
 .right-services-column{
@@ -167,8 +185,9 @@ html, body{
     }
 
     .left-services-column{
+        align-items: center;
         width: 100%;
-        text-align: center;
+        text-align: left;
         padding-top: 0px;
         padding-right: 0px;
         padding-bottom: 0px;
