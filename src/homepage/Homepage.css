@@ -10,7 +10,7 @@ html, body{
 
     height: 1000px;
     width: 100%;
-    background-color: white;
+    background-color: #B3B3B3;;
     font-family: 'Nunito', sans-serif;
 
 }
@@ -21,6 +21,7 @@ html, body{
     height: 10%;
     background-color: black;
     border-bottom: 1px solid #2C9AB7;
+    display: inline-block;
 
 }
 
@@ -65,36 +66,15 @@ html, body{
     letter-spacing: 4px;
 }
 
-.homepage-logo{
+.homepage-body{
+    display: inline-block;
     background-color: #B3B3B3;
-    padding-top: 25px;
-    text-align: center;
-    padding-bottom: 20px;
+    margin-top: 0px;
+    width: 100%;
 }
 
-.p_welcome{
-    font-size: 14px;
-}
-
-.homepage-logo .bsglogo{
-    width: 275px;
-    height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-
-.homepage-logo .usalogo{
-    width: 30px;
-    height: 20px;
-}
-
-.homepage-logo .mexlogo{
-    width: 30px;
-    height: 20px;
+.homepage-body ul {
+    list-style: none;
 }
 
 .homepage-body img{
@@ -110,47 +90,73 @@ html, body{
 
 
 .left-services-column{
-    width: 45%;
+    width: 29%;
     text-align: left;
     font-weight: lighter;
     line-height: 25px;
     float: left;
-    color: black;
     font-size: 30px;
 }
 
 .left-services-column li{
     padding-left: 25%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 50px;
 
 }
 
+
+.middle-column{
+    width: 29%;
+    background-color: #B3B3B3;
+    float: left;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.p_welcome{
+    font-size: 20px;
+}
+
+.welcome_text{
+    font-size: 20px;
+}
+
+.welcome_title{
+    font-size: 30px;
+}
+
+.middle-column .bsglogo{
+    width: 275px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.middle-column .usalogo{
+    width: 30px;
+    height: 20px;
+}
+
+.middle-column .mexlogo{
+    width: 30px;
+    height: 20px;
+}
+
 .right-services-column{
-    width: 45%;
+    width: 29%;
     text-align: left;
     font-weight: lighter;
     line-height: 25px;
     float: left;
-    color: black;
     font-size: 30px;
 }
 
 .right-services-column li{
     padding-left: 25%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.homepage-body{
-    display: inline-block;
-    background-color: #FFFFFF;
-    margin-top: 0px;
-    width: 100%;
-}
-
-.homepage-body ul {
-    list-style: none;
+    margin-top: 50px;
 }
 
 @media (max-width: 450px) {
@@ -196,6 +202,14 @@ html, body{
 
     .homepage-header{
         margin-bottom: 30px;
+    }
+
+    .middle-column {
+        width: 100%;
+        background-color: #B3B3B3;
+        padding-top: 25px;
+        text-align: center;
+        padding-bottom: 20px;
     }
 
     .left-services-column{
@@ -247,6 +261,14 @@ html, body{
         padding-left: 20%;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+
+    .middle-column {
+        width: 100%;
+        background-color: #B3B3B3;
+        padding-top: 25px;
+        text-align: center;
+        padding-bottom: 20px;
     }
 
     .right-services-column{

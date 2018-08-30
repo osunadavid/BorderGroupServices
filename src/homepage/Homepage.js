@@ -46,41 +46,40 @@ class Homepage extends React.Component{
 
                </div>
 
-               < div className= "homepage-logo" >
+               <div className = "homepage-body">
 
-                   <h2> Custom House Brokerage </h2>
-                   <img className="bsglogo" img src = {bgslogo} />
-                   <h4>Welcome</h4>
-                   <p className="p_welcome">We are located in both sides of the Otay Mesa border <br></br>
-                       with a wide range of services to facilitate your import <br></br>
-                       and export process. Ourfocus is to provide outstanding <br></br>
-                       services and Personalized Customer Services.<br></br></p>
-                   <p> <img className="usalogo" img src={usalogo} /> (619) 710-2504 </p>
-                   <p> <img className="mexlogo" img src={mexlogo} /> (664) 383-3430 </p>
+                       <ul className="left-services-column">
+                           <li><a href="#import"></a> < img className="importicon" img src={import_icon} /> Import Process </li>
+                           <li><a href="#export"></a> <img className="exporticon" img src={export_icon} /> Export Process </li>
+                           <li><a href="#custom"></a> <img className="customicon" img src={custom_icon} /> Custom Consulting  </li>
+                           <li><a href="#warehouse"></a> <img className="warehouseicon" img src={warehouse_icon} /> Warehouse </li>
+                           <li><a href="#forms"></a> <img className="formsicon" img src={forms_icon} /> Forms</li>
+                       </ul>
 
-               </div>
+                       <div className="middle-column">
 
-               <div className = "homepage-body " >
+                       <h2 className ="welcome_title"> Custom House Brokerage </h2>
+                       <img className="bsglogo" img src = {bgslogo} />
+                       <h4 className="welcome_text">Welcome</h4>
+                       <p className="p_welcome">We are located in both sides of the Otay Mesa border <br></br>
+                           with a wide range of services to facilitate your import <br></br>
+                           and export process. Ourfocus is to provide outstanding <br></br>
+                           services and Personalized Customer Services.<br></br></p>
+                       <p> <img className="usalogo" img src={usalogo} /> (619) 710-2504 </p>
+                       <p> <img className="mexlogo" img src={mexlogo} /> (664) 383-3430 </p>
+
+                       </div>
+
+                       <ul className="right-services-column">
+                           <li><a href="#tracking"></a> <img className="trackingicon" img src={tracking_icon} /> Tracking </li>
+                           <li><a href="#inventory"></a> <img className="inventoryicon" img src={inventory_icon} /> Inventory </li>
+                           <li><a href="#border"></a> <img className="bordericon" img src={border_icon} /> Border Wait Times </li>
+                           <li><a href="#certified"></a> <img className="certifiedicon" img src={certified_icon} /> C-TPAD Certified </li>
+                           <li><a href="#links"></a> <img className="linksicon" img src={links_icon} /> Links </li>
+                       </ul>
 
 
-                   <ul className="left-services-column">
-                       <li><a href="#import"></a> < img className="importicon" img src={import_icon} /> Import Process </li>
-                       <li><a href="#export"></a> <img className="exporticon" img src={export_icon} /> Export Process </li>
-                       <li><a href="#custom"></a> <img className="customicon" img src={custom_icon} /> Custom Consulting  </li>
-                       <li><a href="#warehouse"></a> <img className="warehouseicon" img src={warehouse_icon} /> Warehouse </li>
-                       <li><a href="#forms"></a> <img className="formsicon" img src={forms_icon} /> Forms</li>
-                   </ul>
-
-                   <ul className="right-services-column">
-                       <li><a href="#tracking"></a> <img className="trackingicon" img src={tracking_icon} /> Tracking </li>
-                       <li><a href="#inventory"></a> <img className="inventoryicon" img src={inventory_icon} /> Inventory </li>
-                       <li><a href="#border"></a> <img className="bordericon" img src={border_icon} /> Border Wait Times </li>
-                       <li><a href="#certified"></a> <img className="certifiedicon" img src={certified_icon} /> C-TPAD Certified </li>
-                       <li><a href="#links"></a> <img className="linksicon" img src={links_icon} /> Links </li>
-                   </ul>
-
-
-               </div>
+                   </div>
 
                <div className = "homepage-footer">
 
