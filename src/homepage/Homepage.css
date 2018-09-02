@@ -8,11 +8,12 @@ html, body{
 
 .homepage-container{
 
-    height: 1000px;
+    min-height: 100vh;
     width: 100%;
-    background-color: #B3B3B3;;
+    background-color: #B3B3B3;
     font-family: 'Nunito', sans-serif;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .homepage-header {
@@ -67,10 +68,12 @@ html, body{
 }
 
 .homepage-body{
-    display: inline-block;
+
+    display: flex;
     background-color: #B3B3B3;
     margin-top: 0px;
     width: 100%;
+    flex: 1;
 }
 
 .homepage-body ul {
@@ -90,7 +93,7 @@ html, body{
 
 
 .left-services-column{
-    width: 29%;
+    width: 31%;
     text-align: left;
     font-weight: lighter;
     line-height: 25px;
@@ -106,7 +109,7 @@ html, body{
 
 
 .middle-column{
-    width: 29%;
+    width: 31%;
     background-color: #B3B3B3;
     float: left;
     padding-top: 25px;
@@ -146,7 +149,7 @@ html, body{
 }
 
 .right-services-column{
-    width: 29%;
+    width: 31%;
     text-align: left;
     font-weight: lighter;
     line-height: 25px;
@@ -159,7 +162,33 @@ html, body{
     margin-top: 50px;
 }
 
+.homepage-footer{
+
+    background-color: #A67C00;
+    display: inline-block;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
 @media (max-width: 450px) {
+
+    .homepage-body{
+        flex-direction: column;
+    }
+
+    .homepage-body .middle-column{
+        order: 1;
+    }
+
+    .homepage-body .left-services-column{
+        order: 2;
+    }
+
+    .homepage-body .right-services-column{
+        order:3;
+    }
 
     .bgs-title{
         width: 100%;
@@ -247,6 +276,24 @@ html, body{
 }
 
 @media (min-width: 451px) and (max-width:800px){
+
+    .homepage-body {
+
+        flex-direction: column;
+    }
+
+    .homepage-body .middle-column{
+
+        order: 1;
+    }
+
+    .homepage-body .left-services-column{
+        order: 2;
+    }
+
+    .homepage-body .right-services-column{
+        order: 3;
+    }
 
     .left-services-column{
         width: 100%;

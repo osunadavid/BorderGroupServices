@@ -83,7 +83,12 @@ class Homepage extends React.Component{
 
                <div className = "homepage-footer">
 
+                   <footer>
 
+                   <p> Border Group Services &#169; All Rights Reserved </p>
+
+
+                   </footer>
 
                </div>
 
