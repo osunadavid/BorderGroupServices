@@ -49,7 +49,7 @@ class Services extends React.Component {
                     <hr className="welcome_hr" />
                     <p className="p_welcome">We are located in both sides of the Otay Mesa border
                         with a wide range of services to facilitate your import
-                        and export process. Ourfocus is to provide outstanding
+                        and export process. Our focus is to provide outstanding
                         services and Personalized Customer Services. </p>
                     <hr className="text_hr" />
                     <p> <img className="usalogo" img src={usalogo} /> (619) 710-2504 </p>
