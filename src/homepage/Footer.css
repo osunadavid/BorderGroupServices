@@ -1,0 +1,26 @@
+.homepage-footer{
+
+    border-top: solid black;
+    background-color: #A67C00;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.homepage-footer img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding-right: 10px;
+}
+
+.contact-icons ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-icons li{
+    padding-left: 0;
+}

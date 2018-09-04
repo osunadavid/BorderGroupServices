@@ -16,17 +16,3 @@ html, body{
     flex-wrap: wrap;
     flex-direction: column;
 }
-
-
-.homepage-footer{
-
-    border-top: solid black;
-    background-color: #A67C00;
-    display: inline-block;
-    width: 100%;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    text-align: center;
-}
-
-

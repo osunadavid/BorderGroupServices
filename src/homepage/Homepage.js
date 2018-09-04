@@ -3,7 +3,8 @@ import React from 'react';
 import './Homepage.css';
 
 import NavBar from './NavBar';
-import Services from './Services'
+import Services from './Services';
+import Footer from './Footer';
 
 class Homepage extends React.Component{
 
@@ -17,15 +18,9 @@ class Homepage extends React.Component{
 
 
            <div className="homepage-container" >
-
                <NavBar/>
                <Services/>
-
-               <div className = "homepage-footer">
-                   <footer>
-                   <p> Border Group Services &#169; All Rights Reserved </p>
-                   </footer>
-               </div>
+               <Footer />
            </div>
 
         );
