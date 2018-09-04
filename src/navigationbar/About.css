@@ -12,5 +12,73 @@
 
 .aboutpage-body{
     flex: 1;
+    display: flex;
+    width: 100%;
+    align-items: baseline;
 }
 
+.aboutpage-leftcolumn{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+
+    width:33%
+}
+
+.aboutpage-title{
+    font-size: 3vh;
+}
+
+.aboutpage-description{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 2vh;
+}
+
+.aboutpage-middlecolumn{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+    width:33%
+}
+
+.aboutpage-middlecolumn .bsglogo{
+    width: 275px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.aboutpage-rightcolumn{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+    width:33%;
+}
+
+
+
+.goalslist{
+    display: flex;
+    font-size: 2vh;
+}
+
+.goalslist li{
+    margin-bottom: 50px;
+
+}
