@@ -48,7 +48,8 @@ class Homepage extends React.Component{
 
                <div className = "homepage-body">
 
-                       <ul className="left-services-column">
+                   <div className="left-services-column">
+                       <ul>
                            <li className="services1"> <h3> Services </h3> </li>
                            <li> <p className="listelement"> < img className="importicon" img src={import_icon} /> Import Process </p> </li>
                            <li> <p className="listelement"> <img className="exporticon" img src={export_icon} /> Export Process </p> </li>
@@ -56,8 +57,9 @@ class Homepage extends React.Component{
                            <li> <p className="listelement"> <img className="warehouseicon" img src={warehouse_icon} /> Warehouse </p></li>
                            <li> <p className="listelement"> <img className="formsicon" img src={forms_icon} /> Forms </p></li>
                        </ul>
+                       </div>
 
-                       <div className="middle-column">
+                   <div className="middle-column">
 
                        <h2 className ="welcome_title"> Custom House Brokerage </h2>
                            <hr className="title_hr"/>
@@ -73,9 +75,10 @@ class Homepage extends React.Component{
                        <p> <img className="mexlogo" img src={mexlogo} /> (664) 383-3430 </p>
                            <hr className ="phone_hr"/>
 
-                       </div>
+                   </div>
 
-                       <ul className="right-services-column">
+                   <div  className="right-services-column">
+                       <ul>
                            <li className="services2"> <h3> Services </h3> </li>
                            <li><p className="listelement offset"> <img className="trackingicon" img src={tracking_icon} /> Tracking </p> </li>
                            <li><p className="listelement"> <img className="inventoryicon" img src={inventory_icon} /> Inventory </p> </li>
@@ -83,6 +86,7 @@ class Homepage extends React.Component{
                            <li><p className="listelement"> <img className="certifiedicon" img src={certified_icon} /> C-TPAD Certified </p></li>
                            <li><p className="listelement"> <img className="linksicon" img src={links_icon} /> Links </p></li>
                        </ul>
+                   </div>
 
 
                    </div>

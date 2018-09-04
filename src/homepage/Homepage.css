@@ -100,12 +100,11 @@ html, body{
     font-size: 30px;
 }
 
-
-.left-services-column li{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-
+.left-services-column ul{
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
 }
 
 .middle-column{
@@ -188,14 +187,13 @@ html, body{
     font-weight: lighter;
     line-height: 25px;
     font-size: 30px;
-
 }
 
-.right-services-column li{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-
+.right-services-column ul{
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    display: table;
 }
 
 .listelement{
