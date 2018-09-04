@@ -60,7 +60,7 @@ class Services extends React.Component {
 
                 <div  className="right-services-column">
                     <ul>
-                        <li className="services2"> <h3> Services </h3> <hr className="title_hr"/>  </li>
+                        <li className="services2"> <h3> Services </h3><hr className="title_hr"/> </li>
                         <li><p className="listelement offset"> <img className="trackingicon" img src={tracking_icon} /> Tracking </p> </li>
                         <li><p className="listelement"> <img className="inventoryicon" img src={inventory_icon} /> Inventory </p> </li>
                         <li><p className="listelement"> <img className="bordericon" img src={border_icon} /> Border Wait Times  </p></li>
