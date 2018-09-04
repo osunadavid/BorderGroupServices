@@ -41,6 +41,7 @@
     "react-dom": "^16.4.2",
     "react-hot-loader": "^4.3.5",
     "react-image": "^1.4.1",
-    "react-images": "^0.5.19"
+    "react-images": "^0.5.19",
+    "react-router-dom": "^4.3.1"
   }
 }
