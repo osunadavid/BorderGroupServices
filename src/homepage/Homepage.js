@@ -36,7 +36,7 @@ class Homepage extends React.Component{
                    </a>
                        <nav>
                            <ul>
-                               <li><a href="#hero">HOME</a></li>
+                               <li><a href="#home">HOME</a></li>
                                <li><a href="#about">ABOUT</a></li>
                                <li><a href="#contact">CONTACT</a></li>
                            </ul>
@@ -49,33 +49,39 @@ class Homepage extends React.Component{
                <div className = "homepage-body">
 
                        <ul className="left-services-column">
-                           <li><a href="#import"></a> < img className="importicon" img src={import_icon} /> Import Process </li>
-                           <li><a href="#export"></a> <img className="exporticon" img src={export_icon} /> Export Process </li>
-                           <li><a href="#custom"></a> <img className="customicon" img src={custom_icon} /> Custom Consulting  </li>
-                           <li><a href="#warehouse"></a> <img className="warehouseicon" img src={warehouse_icon} /> Warehouse </li>
-                           <li><a href="#forms"></a> <img className="formsicon" img src={forms_icon} /> Forms</li>
+                           <li className="services1"> <h3> Services </h3> </li>
+                           <li> <p className="listelement"> < img className="importicon" img src={import_icon} /> Import Process </p> </li>
+                           <li> <p className="listelement"> <img className="exporticon" img src={export_icon} /> Export Process </p> </li>
+                           <li> <p className="listelement"> <img className="customicon" img src={custom_icon} /> Custom Consulting </p> </li>
+                           <li> <p className="listelement"> <img className="warehouseicon" img src={warehouse_icon} /> Warehouse </p></li>
+                           <li> <p className="listelement"> <img className="formsicon" img src={forms_icon} /> Forms </p></li>
                        </ul>
 
                        <div className="middle-column">
 
                        <h2 className ="welcome_title"> Custom House Brokerage </h2>
+                           <hr className="title_hr"/>
                        <img className="bsglogo" img src = {bgslogo} />
                        <h4 className="welcome_text">Welcome</h4>
-                       <p className="p_welcome">We are located in both sides of the Otay Mesa border <br></br>
-                           with a wide range of services to facilitate your import <br></br>
-                           and export process. Ourfocus is to provide outstanding <br></br>
-                           services and Personalized Customer Services.<br></br></p>
+                           <hr className="welcome_hr" />
+                       <p className="p_welcome">We are located in both sides of the Otay Mesa border
+                           with a wide range of services to facilitate your import
+                           and export process. Ourfocus is to provide outstanding
+                           services and Personalized Customer Services. </p>
+                           <hr className="text_hr" />
                        <p> <img className="usalogo" img src={usalogo} /> (619) 710-2504 </p>
                        <p> <img className="mexlogo" img src={mexlogo} /> (664) 383-3430 </p>
+                           <hr className ="phone_hr"/>
 
                        </div>
 
                        <ul className="right-services-column">
-                           <li><a href="#tracking"></a> <img className="trackingicon" img src={tracking_icon} /> Tracking </li>
-                           <li><a href="#inventory"></a> <img className="inventoryicon" img src={inventory_icon} /> Inventory </li>
-                           <li><a href="#border"></a> <img className="bordericon" img src={border_icon} /> Border Wait Times </li>
-                           <li><a href="#certified"></a> <img className="certifiedicon" img src={certified_icon} /> C-TPAD Certified </li>
-                           <li><a href="#links"></a> <img className="linksicon" img src={links_icon} /> Links </li>
+                           <li className="services2"> <h3> Services </h3> </li>
+                           <li><p className="listelement offset"> <img className="trackingicon" img src={tracking_icon} /> Tracking </p> </li>
+                           <li><p className="listelement"> <img className="inventoryicon" img src={inventory_icon} /> Inventory </p> </li>
+                           <li><p className="listelement"> <img className="bordericon" img src={border_icon} /> Border Wait Times  </p></li>
+                           <li><p className="listelement"> <img className="certifiedicon" img src={certified_icon} /> C-TPAD Certified </p></li>
+                           <li><p className="listelement"> <img className="linksicon" img src={links_icon} /> Links </p></li>
                        </ul>
 
 
