@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Homepage.css';
 
-import NavBar from './NavBar';
+import NavBar from '../navigationbar/NavBar';
 import Services from './Services';
-import Footer from './Footer';
+import Footer from '../footer/Footer';
 
 class Homepage extends React.Component{
 

@@ -8,7 +8,11 @@ class ImportPage extends React.Component{
 
     render(){
 
-        <h1> Welcome to the Import Page </h1>
+        return(
+
+            <h1> Import Page </h1>
+
+        );
 
     }
 
