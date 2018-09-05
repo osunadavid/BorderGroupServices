@@ -6,10 +6,31 @@ import fb_icon from '../../dist/images/fb_icon.svg';
 import location_icon from '../../dist/images/location_icon.svg';
 import twitter_icon from '../../dist/images/twitter_icon.svg';
 
+const LOCATION_LINK = "https://goo.gl/maps/c2foCfQ7jwJ2";
+const FB_LINK = "https://www.facebook.com/Border-Group-Services-935999686415141/";
+const TWITTER_LINK = "https://twitter.com/EFRCustomsHouse";
+
+
+
 class Footer extends React.Component{
 
     constructor(props){
         super(props);
+    }
+
+    onLocationButton(e){
+        const newTab = window.open(LOCATION_LINK, '_blank');
+        newTab.focus();
+    }
+
+    onFbButton(e){
+        const newTab = window.open(FB_LINK, '_blank');
+        newTab.focus();
+    }
+
+    onTwitterButton(e){
+        const newTab = window.open(TWITTER_LINK, '_blank');
+        newTab.focus();
     }
 
     render(){
@@ -21,9 +42,9 @@ class Footer extends React.Component{
                 <div className="contact-icons">
 
                     <ul>
-                        <li> <img src={location_icon} /> </li>
-                        <li> <img src={fb_icon} /> </li>
-                        <li> <img src={twitter_icon} /> </li>
+                        <li> <img src={location_icon} onClick={this.onLocationButton}/> </li>
+                        <li> <img src={fb_icon} onClick={this.onFbButton} /> </li>
+                        <li> <img src={twitter_icon} onClick={this.onTwitterButton} /> </li>
                     </ul>
 
                 </div>

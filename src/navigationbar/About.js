@@ -25,6 +25,7 @@ class About extends React.Component{
                     <div className="aboutpage-leftcolumn">
 
                         <h1 className="aboutpage-title"> About Us </h1>
+                        <hr className="title_hr"/>
 
                         <p className="aboutpage-description">
 
@@ -55,6 +56,7 @@ class About extends React.Component{
                     <div className="aboutpage-middlecolumn">
 
                         <h1 className ="aboutpage-title"> Custom House Brokerage </h1>
+                        <hr className="title_hr"/>
                         <img className="bsglogo" img src = {bgslogo} />
                         <h2 className="aboutpage-title">Mission Statement</h2>
                         <p className="aboutpage-description">
@@ -68,6 +70,7 @@ class About extends React.Component{
                     <div className="aboutpage-rightcolumn">
 
                         <h1 className="aboutpage-title"> Our Goals </h1>
+                        <hr className="title_hr"/>
 
                         <div className="goalslist">
                             <ul>

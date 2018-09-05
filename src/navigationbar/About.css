@@ -31,6 +31,7 @@
 
 .aboutpage-title{
     font-size: 3vh;
+    text-align: center;
 }
 
 .aboutpage-description{
@@ -81,6 +82,12 @@
 .goalslist li{
     margin-bottom: 50px;
 
+}
+
+.title_hr {
+    background-color: rgba(208, 207, 207, 1.00);
+    height: 2px;
+    width: 90%;
 }
 
 @media (max-width: 450px) {
