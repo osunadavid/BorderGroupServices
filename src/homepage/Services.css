@@ -1,158 +1,49 @@
-.homepage-body{
+.servicespage-container {
 
-    display: flex;
-    background-color: #B3B3B3;
-    margin-top: 0px;
+    min-height: 100vh;
     width: 100%;
-    flex: 1;
+    background-color: #B3B3B3;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
 }
 
-.homepage-body ul {
+.servicespage-body{
+    flex: 1;
+    display: flex;
+    width: 100%;
+    align-items: baseline;
+}
+
+.servicespage-body ul {
     list-style: none;
 }
 
-.homepage-body img{
-    width: 50px;
-    height: 50px;
+.servicespage-leftcolumn{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    width:33%
+}
+
+.leftlist{
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+}
+
+.leftlist img{
+
+    width: 75px;
+    height: 75px;
     cursor: pointer;
     padding-right: 10px;
-}
 
-.homepage-body img:hover{
-    cursor: pointer;
-
-}
-
-.left-services-column{
-    width: 33%;
-    font-weight: lighter;
-    line-height: 25px;
-    font-size: 30px;
-}
-
-.left-services-column ul{
-    text-align: left;
-    margin-right: auto;
-    margin-left: auto;
-    display: table;
-}
-
-.left-services-column li{
-    margin-bottom: 75px;
-}
-
-.middle-column{
-    width: 33%;
-    background-color: #B3B3B3;
-    float: left;
-    padding-top: 25px;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.p_welcome{
-    font-size: 20px;
-}
-
-.welcome_text{
-    font-size: 25px;
-}
-
-.welcome_title{
-    font-size: 30px;
-}
-
-.middle-column .bsglogo{
-    width: 275px;
-    height: 300px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.middle-column .usalogo{
-    width: 30px;
-    height: 20px;
-}
-
-.middle-column .mexlogo{
-    width: 30px;
-    height: 20px;
-}
-
-.middle-column .title_hr {
-    background-color: rgba(208, 207, 207, 1.00);
-    height: 2px;
-    width: 75%;
-}
-
-
-.left-services-column .title_hr {
-    background-color: rgba(208, 207, 207, 1.00);
-    height: 2px;
-    width: 100%;
-}
-
-.right-services-column .title_hr {
-    background-color: rgba(208, 207, 207, 1.00);
-    height: 2px;
-    width: 100%;
-}
-
-.middle-column .welcome_hr{
-    background-color: rgba(208,207,207,1.00);
-    height: 2px;
-    width: 90%;
-
-}
-
-.middle-column .p_welcome{
-
-    padding-left: 5%;
-    padding-right: 5%;
-
-}
-
-.middle-column .text_hr{
-    background-color: rgba(208,207,207,1.00);
-    height: 2px;
-    width: 90%;
-
-}
-
-.middle-column .phone_hr{
-
-    background-color: rgba(208,207,207,1.00);
-    height: 2px;
-    width: 200px;
-
-}
-
-.right-services-column{
-    width: 33%;
-    font-weight: lighter;
-    line-height: 25px;
-    font-size: 30px;
-}
-
-.right-services-column ul{
-    text-align: left;
-    margin-right: auto;
-    margin-left: auto;
-    display: table;
-}
-
-.right-services-column li{
-    margin-bottom: 75px;
-}
-
-.services1{
-    text-align: center;
-}
-
-.services2{
-    text-align: center;
 }
 
 .listelement{
@@ -160,267 +51,91 @@
     align-items: center;
 }
 
+.servicespage-middlecolumn{
 
-@media (max-width: 450px) {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
 
-    .homepage-body {
-        flex-direction: column;
-    }
+    width:33%
+}
 
-    .homepage-body .middle-column {
-        order: 1;
-    }
+.servicespage-middlecolumn img{
 
-    .homepage-body .left-services-column {
-        order: 2;
-    }
+    height: 300px;
+    width: 275px;
+}
 
-    .homepage-body .right-services-column {
-        order: 3;
-    }
+.p_welcome{
+    padding-right: 15%;
+    padding-left: 15%;
+    font-size: 2vh;
+    text-align: center;
+}
 
-    .bgs-title {
-        width: 100%;
-        text-align: center;
-        margin-top: 13px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        color: white;
-    }
+.usalogo img{
+    width: 60px;
+    height: 40px;
+    padding-right: 10px;
+}
 
-    .homepage-header header nav {
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        width: 100%;
-        float: none;
-        overflow: auto;
-        display: inline-block;
-        background: black;
+.mexlogo img{
+    width: 60px;
+    height: 40px;
+    padding-right: 10px;
+}
 
-    }
+.usalogo{
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+}
 
-    .homepage-header header nav ul {
-        padding: 0px;
-        float: none;
-    }
+.mexlogo{
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+}
 
-    .homepage-header ul li {
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        width: 100%;
-        text-align: center;
-        padding-top: 8px;
-        padding-bottom: 8px;
+.servicespage-rightcolumn{
 
-    }
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
 
-    .homepage-header {
-        margin-bottom: 30px;
-    }
+    width:33%
+}
 
-    .middle-column {
-        width: 100%;
-        background-color: #B3B3B3;
-        padding-top: 25px;
-        text-align: center;
-        padding-bottom: 20px;
-    }
+.rightlist{
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+}
 
-    .middle-column .title_hr {
-        background-color: rgba(208, 207, 207, 1.00);
-        height: 2px;
-        width: 90%;
-    }
+.rightlist img{
 
-    .middle-column .welcome_hr {
-        background-color: rgba(208, 207, 207, 1.00);
-        height: 2px;
-        width: 90%;
-    }
-
-    .middle-column .text_hr {
-        background-color: rgba(208, 207, 207, 1.00);
-        height: 2px;
-        width: 90%;
-    }
-
-    .left-services-column .title_hr{
-        display: none;
-    }
-
-    .services1{
-        text-align: left;
-    }
-
-    .left-services-column {
-        align-items: center;
-        width: 100%;
-        text-align: left;
-        margin-bottom: 0;
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    }
-
-    .left-services-column ul{
-        text-align: left;
-        margin-right: auto;
-        margin-left: auto;
-        display: table;
-        margin-bottom: 0;
-    }
-
-    .left-services-column li {
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .right-services-column {
-        width: 100%;
-        text-align: left;
-        margin-top: 0;
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    }
-
-    .right-services-column ul{
-        text-align: left;
-        margin-top: 0;
-        margin-right: auto;
-        margin-left: auto;
-        display: table;
-    }
-
-    .right-services-column li {
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .homepage-body .services2 {
-        display: none;
-    }
-
-    .right-services-column li .listelement.offset {
-        margin-top: 0;
-    }
-
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+    padding-right: 10px;
 
 }
 
-@media (min-width: 451px) and (max-width:800px){
+h1{
+    font-size: 3vh;
+}
 
-    .homepage-body {
+.servicespage-bgs{
 
-        flex-direction: column;
-    }
+    text-align: center;
+}
 
-    .homepage-body .middle-column{
-
-        order: 1;
-    }
-
-    .homepage-body .left-services-column{
-        order: 2;
-    }
-
-    .homepage-body .right-services-column{
-        order: 3;
-    }
-
-    .middle-column {
-        width: 100%;
-        background-color: #B3B3B3;
-        padding-top: 25px;
-        text-align: center;
-        padding-bottom: 20px;
-    }
-
-    .right-services-column{
-        width: 100%;
-        text-align: left;
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    }
-
-    .left-services-column .title_hr{
-        display: none;
-    }
-
-    .services1{
-        text-align: left;
-    }
-
-    .left-services-column {
-        align-items: center;
-        width: 100%;
-        text-align: left;
-        margin-bottom: 0;
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    }
-
-    .left-services-column ul{
-        text-align: left;
-        margin-right: auto;
-        margin-left: auto;
-        display: table;
-        margin-bottom: 0;
-    }
-
-    .left-services-column li {
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .right-services-column {
-        width: 100%;
-        text-align: left;
-        margin-top: 0;
-        padding-top: 0px;
-        padding-right: 0px;
-        padding-bottom: 0px;
-        padding-left: 0px;
-    }
-
-    .right-services-column ul{
-        text-align: left;
-        margin-top: 0;
-        margin-right: auto;
-        margin-left: auto;
-        display: table;
-    }
-
-    .right-services-column li {
-        padding-left: 5%;
-        padding-right: 5%;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .homepage-body .services2 {
-        display: none;
-    }
-
-    .right-services-column li .listelement.offset {
-        margin-top: 0;
-    }
-
+.title_hr {
+    background-color: rgba(208, 207, 207, 1.00);
+    height: 2px;
+    width: 100%;
 }
