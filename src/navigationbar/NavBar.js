@@ -16,12 +16,12 @@ class NavBar extends React.Component {
 
                 <div className = "homepage-header" >
 
-                    <header><a href="">
+                    <header> <Link to ="/">
                         <h4 className="bgs-title">Border Group Services</h4>
-                    </a>
+                    </Link>
                         <nav>
                             <ul>
-                                <li><a href="/">HOME</a></li>
+                                <li> <Link to="/">HOME</Link></li>
                                 <li> <Link to="/about"> ABOUT </Link> </li>
                                 <li> <Link to="/contact">CONTACT</Link></li>
                             </ul>

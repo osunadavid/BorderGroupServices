@@ -55,18 +55,22 @@ class Services extends React.Component {
 
                     <div className="servicespage-middlecolumn">
 
-                        <h1 className="servicespage-bgs"> Border Group Services </h1>
+                        <h1 className="servicespage-bgs"> Custom House Brokerage </h1>
                         <hr className="title_hr"/>
 
                         < img className="bgs_logo" img src={bgslogo} />
 
                         <h1> Welcome </h1>
 
+                        <hr className="title_hr"/>
+
                         <p className="p_welcome">We are located in both sides of the Otay Mesa border
                             with a wide range of services to facilitate your import
                             and export process. Our focus is to provide outstanding
                             services and Personalized Customer Services.
                         </p>
+
+                        <hr className="title_hr"/>
 
                         <p className="usalogo"> <img src={usalogo} /> (619) 710-2504 </p>
                         <p className="mexlogo"> <img src={mexlogo} /> (664) 383-3430 </p>
@@ -77,7 +81,7 @@ class Services extends React.Component {
                     <div className="servicespage-rightcolumn">
 
                         <h1 className="servicespage-title2"> Services </h1>
-                        <hr className="title_hr"/>
+                        <hr className="title_hr2"/>
 
                         <ul className="rightlist">
                             <li><p className="listelement offset"> <img className="trackingicon" img src={tracking_icon} /> Tracking </p> </li>

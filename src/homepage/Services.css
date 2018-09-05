@@ -76,14 +76,14 @@
 }
 
 .usalogo img{
-    width: 60px;
-    height: 40px;
+    width: 50px;
+    height: 30px;
     padding-right: 10px;
 }
 
 .mexlogo img{
-    width: 60px;
-    height: 40px;
+    width: 50px;
+    height: 30px;
     padding-right: 10px;
 }
 
@@ -137,5 +137,134 @@ h1{
 .title_hr {
     background-color: rgba(208, 207, 207, 1.00);
     height: 2px;
-    width: 100%;
+    width: 90%;
+}
+
+.title_hr2{
+    background-color: rgba(208, 207, 207, 1.00);
+    height: 2px;
+    width: 90%;
+}
+
+@media (max-width: 450px) {
+
+    .servicespage-body {
+        flex-direction: column;
+    }
+
+    .servicespage-body .servicespage-middlecolumn  {
+        order: 1;
+    }
+
+    .servicespage-body .servicespage-leftcolumn {
+        order: 2;
+    }
+
+    .servicespage-body .servicespage-rightcolumn {
+        order: 3;
+    }
+
+    .servicespage-middlecolumn{
+        width: 100%;
+    }
+
+    .servicespage-leftcolumn{
+        width: 100%;
+    }
+
+    .servicespage-rightcolumn{
+        width: 100%;
+    }
+
+    .leftlist img{
+
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        padding-right: 10px;
+
+    }
+
+    .rightlist img{
+
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        padding-right: 10px;
+
+    }
+
+    .leftlist{
+        margin-bottom: 0;
+    }
+
+    .rightlist{
+        margin-top: 0;
+    }
+
+    .listelement{
+        margin-top: 0;
+    }
+
+    .servicespage-title2{
+        display: none;
+    }
+
+    .title_hr2{
+        display: none;
+    }
+}
+
+
+@media (min-width: 451px) and (max-width:800px){
+
+
+    .servicespage-body {
+        flex-direction: column;
+    }
+
+    .servicespage-body .servicespage-middlecolumn  {
+        order: 1;
+    }
+
+    .servicespage-body .servicespage-leftcolumn {
+        order: 2;
+    }
+
+    .servicespage-body .servicespage-rightcolumn {
+        order: 3;
+    }
+
+    .servicespage-middlecolumn{
+        width: 100%;
+    }
+
+    .servicespage-leftcolumn{
+        width: 100%;
+    }
+
+    .servicespage-rightcolumn{
+        width: 100%;
+    }
+
+    .leftlist{
+        margin-bottom: 0;
+    }
+
+    .rightlist{
+        margin-top: 0;
+    }
+
+    .listelement{
+        margin-top: 0;
+    }
+
+    .servicespage-title2{
+        display: none;
+    }
+
+    .title_hr2{
+        display: none;
+    }
+
 }

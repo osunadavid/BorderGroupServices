@@ -8,11 +8,9 @@ import Contact from "./navigationbar/Contact";
 const Main = () => (
     <main>
         <Switch>
-
             <Route exact path='/' component={Homepage}/>
             <Route path='/about' component={About} />
             <Route path='/contact' component={Contact}/>
-
         </Switch>
     </main>
 );
