@@ -36,7 +36,10 @@ module.exports = {
         contentBase: path.join(__dirname, "/"),
         port: 3000,
         hotOnly: true,
-        open: true
+        open: true,
+        historyApiFallback: {
+            index: 'index.html'
+        }
     },
     plugins: [ new webpack.HotModuleReplacementPlugin() ]
 };
