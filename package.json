@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode development",
-    "build": "webpack --mode production",
-    "homepage": "https://osunadavid.github.io/BorderGroupServices/"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/osunadavid/BorderGroupServices/issues"
   },
-  "homepage": "https://github.com/osunadavid/BorderGroupServices#readme",
+  "homepage": "https://osunadavid.github.io/BorderGroupServices/",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
