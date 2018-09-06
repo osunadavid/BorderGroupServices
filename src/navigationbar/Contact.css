@@ -11,5 +11,89 @@
 }
 
 .contactpage-body{
+    display: flex;
+    width: 100%;
     flex: 1;
+    align-items: baseline;
+    justify-content: center;
 }
+
+.contactpage-middlecolumn{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactpage_title{
+    font-size: 4vh;
+}
+
+.contactpage-middlecolumn img{
+    width: 275px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_hr {
+    background-color: rgba(208, 207, 207, 1.00);
+    height: 2px;
+    width: 90%;
+}
+
+.sd_title{
+    font-size: 3vh;
+    margin-bottom: 0;
+}
+
+.bgs_address{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size: 2vh;
+    margin-top: 0;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+}
+
+.contact-email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+}
+
+.contact-email img{
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+}
+
+.usalogo img{
+    width: 50px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.mexlogo img{
+    width: 50px;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.usalogo{
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+}
+
+.mexlogo{
+    display: flex;
+    align-items: center;
+    font-size: 2vh;
+}
+
