@@ -11,8 +11,7 @@ class App extends Component{
 
                 <div className="app-container">
 
-                   < Homepage/>
-
+                  < Homepage/>
 
                 </div>
         );

@@ -55,7 +55,7 @@ class Services extends React.Component {
 
                     <div className="servicespage-middlecolumn">
 
-                        <h1 className="servicespage-bgs"> Custom House Brokerage </h1>
+                        <h1 className="servicespage-bgs"> TESTING IMAGES </h1>
                         <hr className="title_hr"/>
 
                         < img className="bgs_logo" img src={bgslogo} />
