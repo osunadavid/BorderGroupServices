@@ -29,7 +29,7 @@ class Contact extends React.Component{
                         <h1 className="contactpage_title"> Contact Our Team </h1>
                         <hr className="contact_hr"/>
 
-                        <img className="bsglogo" img src = {bsglogo} />
+                        <img src = {bsglogo} />
                         <hr className="contact_hr"/>
 
                         <h2 className="sd_title"> San Diego, California </h2>

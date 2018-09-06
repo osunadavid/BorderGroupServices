@@ -57,7 +57,7 @@ class About extends React.Component{
 
                         <h1 className ="aboutpage-title"> Custom House Brokerage </h1>
                         <hr className="title_hr"/>
-                        <img className="bsglogo" img src = {bgslogo} />
+                        <img src = {bgslogo} />
                         <h2 className="aboutpage-title">Mission Statement</h2>
                         <p className="aboutpage-description">
 
