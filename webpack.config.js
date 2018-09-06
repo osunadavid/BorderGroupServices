@@ -26,7 +26,13 @@ module.exports = {
             }
         ]
     },
-    resolve: { extensions: ['*', '.js', '.jsx'] },
+    resolve: {
+        extensions: ['*', '.js', '.jsx'],
+        modules: [
+            'node_modules',
+            path.resolve('./dist'),
+        ]
+    },
     output: {
         path: path.resolve(__dirname, "dist/"),
         publicPath: "/dist/",

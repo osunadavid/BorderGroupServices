@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Footer.css';
 
-import fb_icon from '../../dist/images/fb_icon.svg';
-import location_icon from '../../dist/images/location_icon.svg';
-import twitter_icon from '../../dist/images/twitter_icon.svg';
+import fb_icon from 'images/fb_icon.svg';
+import location_icon from 'images/location_icon.svg';
+import twitter_icon from 'images/twitter_icon.svg';
 
 const LOCATION_LINK = "https://goo.gl/maps/c2foCfQ7jwJ2";
 const FB_LINK = "https://www.facebook.com/Border-Group-Services-935999686415141/";

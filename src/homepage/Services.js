@@ -2,19 +2,19 @@ import React from 'react';
 
 import './Services.css';
 
-import bgslogo from '../../dist/images/BorderGroupServices.png';
-import usalogo from '../../dist/images/usaflag.png';
-import mexlogo from '../../dist/images/mexicoflag.png';
-import import_icon from '../../dist/images/import_icon.svg'
-import export_icon from '../../dist/images/export_icon.svg';
-import custom_icon from '../../dist/images/custom_icon.svg';
-import warehouse_icon from '../../dist/images/warehouse_icon.svg';
-import forms_icon from '../../dist/images/forms_icon.svg';
-import tracking_icon from '../../dist/images/tracking_icon.svg';
-import inventory_icon from '../../dist/images/inventory_icon.svg';
-import border_icon from '../../dist/images/border_icon.svg';
-import certified_icon from '../../dist/images/certified_icon.svg';
-import links_icon from '../../dist/images/links_icon.svg';
+import bgslogo from 'images/BorderGroupServices.png';
+import usalogo from 'images/usaflag.png';
+import mexlogo from 'images/mexicoflag.png';
+import import_icon from 'images/import_icon.svg'
+import export_icon from 'images/export_icon.svg';
+import custom_icon from 'images/custom_icon.svg';
+import warehouse_icon from 'images/warehouse_icon.svg';
+import forms_icon from 'images/forms_icon.svg';
+import tracking_icon from 'images/tracking_icon.svg';
+import inventory_icon from 'images/inventory_icon.svg';
+import border_icon from 'images/border_icon.svg';
+import certified_icon from 'images/certified_icon.svg';
+import links_icon from 'images/links_icon.svg';
 import NavBar from "../navigationbar/NavBar";
 import Footer from "../footer/Footer";
 
