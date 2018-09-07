@@ -15,8 +15,8 @@ class App extends Component{
         return(
 
                     <div className="app-container">
-                        <h1> Trial </h1>
-                        <Router basename="/">
+                        <h1> Trial 2 </h1>
+                        <Router basename="BorderGroupServices">
                             <Switch>
                                 <Route exact path='/' component={Homepage}/>
                                 <Route path='/about' component={About} />
