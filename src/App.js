@@ -13,15 +13,18 @@ import Homepage from "./homepage/Homepage";
 class App extends Component{
     render(){
         return(
-                <Router basename={process.env.PUBLIC_URL}>
+
                     <div className="app-container">
-                    <Switch>
-                        <Route exact path='/' component={Homepage}/>
-                        <Route path='/about' component={About} />
-                        <Route path='/contact' component={Contact}/>
-                    </Switch>
+                        <h1> Trial </h1>
+                        <Router basename="/">
+                            <Switch>
+                                <Route exact path='/' component={Homepage}/>
+                                <Route path='/about' component={About} />
+                                <Route path='/contact' component={Contact}/>
+                            </Switch>
+                        </Router>
                     </div>
-                </Router>
+
         );
     }
 }
