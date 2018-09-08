@@ -15,7 +15,7 @@ class App extends Component{
         return(
 
                     <div className="app-container">
-                        <Router basename={process.env.PUBLIC_URL}>
+                        <Router basename={Homepage}>
                             <Switch>
                                 <Route exact path='/' component={Homepage}/>
                                 <Route path='/about' component={About} />
