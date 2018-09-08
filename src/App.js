@@ -15,7 +15,7 @@ class App extends Component{
         return(
 
                     <div className="app-container">
-                        <Router basename="BorderGroupServices">
+                        <Router basename={process.env.PUBLIC_URL}>
                             <Switch>
                                 <Route exact path='/' component={Homepage}/>
                                 <Route path='/about' component={About} />
