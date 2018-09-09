@@ -49,6 +49,17 @@
     letter-spacing: 4px;
 }
 
+.homepage-header ul li a:hover{
+    text-shadow: 0px 0px 15px white;
+    color: #A67C00;
+}
+
+.bgs-title:hover{
+    text-shadow: 0px 0px 15px white;
+    color: #A67C00;
+}
+
+
 @media (max-width: 450px) {
 
     .bgs-title {

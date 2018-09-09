@@ -49,6 +49,13 @@
 .listelement{
     display: flex;
     align-items: center;
+    transition: all 0.2s linear;
+}
+
+.listelement:hover {
+    transition: all 0.25s linear;
+    transform: translateX(15%);
+
 }
 
 .servicespage-middlecolumn{
