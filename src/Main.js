@@ -4,7 +4,8 @@ import {
     Route,
     Switch
 } from 'react-router-dom'
-
+import TransitionSwitch from 'react-router-transition-switch'
+import Fader from 'react-fader'
 import About from "./navigationbar/About";
 import Contact from "./navigationbar/Contact";
 import Homepage from "./homepage/Homepage";
@@ -13,7 +14,8 @@ import Homepage from "./homepage/Homepage";
 const Main = () => (
             <main>
                 <Router>
-                    <Switch>
+
+                    <TransitionSwitch component={Fader}>
 
                         <Route exact path='/' component={Homepage}/>
 
@@ -21,7 +23,8 @@ const Main = () => (
 
                         <Route path='/contact' component={Contact}/>
 
-                    </Switch>
+                    </TransitionSwitch>
+
                 </Router>
             </main>
 );

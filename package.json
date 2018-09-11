@@ -40,10 +40,14 @@
     "react": "^16.4.2",
     "react-browser-router": "^2.1.2",
     "react-dom": "^16.4.2",
+    "react-fader": "^2.0.3",
     "react-hot-loader": "^4.3.5",
     "react-image": "^1.4.1",
     "react-images": "^0.5.19",
     "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "react-router-transition": "^1.2.1",
+    "react-router-transition-switch": "^1.1.0",
+    "transition-switch": "^0.1.5"
   }
 }
