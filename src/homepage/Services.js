@@ -2,6 +2,8 @@ import React from 'react';
 
 import './Services.css';
 
+import {Link} from "react-router-dom";
+
 import bgslogo from 'images/BorderGroupServices.png';
 import usalogo from 'images/usaflag.png';
 import mexlogo from 'images/mexicoflag.png';
@@ -41,7 +43,7 @@ class Services extends React.Component {
 
                         <ul className="leftlist">
 
-                            <li> <p className="listelement"> <img src={import_icon} /> Import Process </p> </li>
+                            <li> <p className="listelement"> <Link to="/importpage"> <img src={import_icon} /> </Link> Import Process </p> </li>
                             <li> <p className="listelement"> <img src={export_icon} /> Export Process </p> </li>
                             <li> <p className="listelement"> <img src={custom_icon} /> Custom Consulting </p> </li>
                             <li> <p className="listelement"> <img src={warehouse_icon} /> Warehouse </p></li>
