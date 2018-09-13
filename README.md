@@ -19,4 +19,4 @@ The JavaScript framework I chose to use was `ReactJS` because it's facilitates w
 My favorite IDE to use for JavaScript is WebStorm which was created by JetBrains. The build in features of vi, command line, and autocompletion speed up the development process. 
 
 ### Workflow
-To create feasible tasks and interations I have incorporated Jira Software. Jira Software has allowed me to plan, track, and manage the software I have developed. I have created a Scrum Board to create feasible iterations and allow me to track my progress. Setting up Jira Software on MacOS initially was confusing so I plan to create a tutorial how to set up with the localhost to help future developers
+To create feasible tasks and interations I have incorporated Jira Software. Jira Software has allowed me to plan, track, and manage the software I have developed. I have created a Scrum Board to create feasible iterations and allow me to track my progress. Setting up Jira Software on MacOS initially was confusing so I plan to create a tutorial how to set up with the localhost to help future developers use Jira Software on MacOS.
