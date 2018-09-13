@@ -23,5 +23,3 @@ To create feasible tasks and interations I have incorporated Jira Software. Jira
 
 ### Time Frame
 I have allocated 1 month of development for a MVP. First version delivery and deployment are scheduled for September 23, 2018.
-
-## Getting Started
