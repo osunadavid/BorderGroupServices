@@ -5,7 +5,7 @@ Repository to create a Web Page for Border Group Services
 To create a Progressive Web Application that will provide a App-Like experience for customers of Border Group Services. This released version will be responsive, cross platform compatible, and will require and internet connection.
 
 ### Why Progressive Web Apps ? 
-Link: https://developers.google.com/web/progressive-web-apps/
+Link: [Google PWAs](https://developers.google.com/web/progressive-web-apps/)
 
 ## Project Scope
 
@@ -23,3 +23,5 @@ To create feasible tasks and interations I have incorporated Jira Software. Jira
 
 ### Time Frame
 I have allocated 1 month of development for a MVP. First version delivery and deployment are scheduled for September 23, 2018.
+
+## Getting Started
