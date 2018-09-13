@@ -27,7 +27,7 @@ class ImportPage extends React.Component{
 
 
                                 <ul>
-                                    <li> &#8203; </li>
+                                    <li className="empty_space"> &#8203; </li>
                                     <li> <img src={check_icon} /> Entry Clearance </li>
                                     <li> <img src={check_icon} /> FDAT Transmission of Information</li>
                                     <li> <img src={check_icon} /> Electronic Filing to F&WL </li>
@@ -54,7 +54,7 @@ class ImportPage extends React.Component{
                             <div className="import-rightlist">
 
                                 <ul>
-                                    <li> &#8203;</li>
+                                    <li className="empty_space"> &#8203;</li>
                                     <li> <img src={check_icon} /> Hazmat Entry Process  </li>
                                     <li> <img src={check_icon} /> e-Manifest </li>
                                     <li> <img src={check_icon} /> Reconciliations </li>
