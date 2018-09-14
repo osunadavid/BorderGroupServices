@@ -17,7 +17,6 @@ const Main = () => (
                 <Router basename="/BorderGroupServices">
 
                     <TransitionSwitch component={Fader}>
-
                         <Route exact path='/' component={Homepage}/>
                         <Route path='/about' component={About} />
                         <Route path='/contact' component={Contact}/>
