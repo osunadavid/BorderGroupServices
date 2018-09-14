@@ -14,7 +14,7 @@ import ImportPage from "./services/ImportPage";
 
 const Main = () => (
             <main>
-                <Router>
+                <Router basename="/BorderGroupServices">
 
                     <TransitionSwitch component={Fader}>
 
