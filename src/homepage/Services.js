@@ -20,11 +20,38 @@ import links_icon from 'images/links_icon.svg';
 import NavBar from "../navigationbar/NavBar";
 import Footer from "../footer/Footer";
 
+const TRACKING_LINK = "https://www.netchb.com/security/";
+const BORDERTIMES_LINK = "https://apps.cbp.gov/bwt/display_rss_port.asp?port=250602";
+const INVENTORY_LINK = "http://184.191.178.146:8181/swi/index.php";
+const CTPAD_LINK = "https://www.cbp.gov/";
+
 class Services extends React.Component {
 
     constructor(props) {
         super(props)
     }
+
+
+    onTrackingButton(e){
+        const newTab = window.open(TRACKING_LINK,'_blank');
+        newTab.focus();
+    }
+
+    onBorderTimesButton(e){
+        const newTab = window.open(BORDERTIMES_LINK, '_blank');
+        newTab.focus();
+    }
+
+    onInventoryButton(e){
+        const newTab = window.open(INVENTORY_LINK, '_blank');
+        newTab.focus();
+    }
+
+    onCTPADButton(e){
+        const newTab = window.open(CTPAD_LINK, '_blank');
+        newTab.focus();
+    }
+
     render() {
 
         return (
@@ -84,10 +111,10 @@ class Services extends React.Component {
                         <hr className="title_hr2"/>
 
                         <ul className="rightlist">
-                            <li><p className="listelement offset"> <img src={tracking_icon} /> Tracking </p> </li>
-                            <li><p className="listelement"> <img src={inventory_icon} /> Inventory </p> </li>
-                            <li><p className="listelement"> <img src={border_icon} /> Border Wait Times  </p></li>
-                            <li><p className="listelement"> <img src={certified_icon} /> C-TPAD Certified </p></li>
+                            <li><p className="listelement offset"> <img src={tracking_icon} onClick={this.onTrackingButton}/> Tracking </p> </li>
+                            <li><p className="listelement"> <img src={inventory_icon} onClick={this.onInventoryButton} /> Inventory </p> </li>
+                            <li><p className="listelement"> <img src={border_icon} onClick={this.onBorderTimesButton} /> Border Wait Times  </p></li>
+                            <li><p className="listelement"> <img src={certified_icon} onClick={this.onCTPADButton} /> C-TPAD Certified </p></li>
                             <li><p className="listelement"> <img src={links_icon} /> Links </p></li>
                         </ul>
 
