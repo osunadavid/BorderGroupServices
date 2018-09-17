@@ -55,7 +55,6 @@
 .listelement:hover {
     transition: all 0.25s linear;
     transform: translateX(15%);
-
 }
 
 .servicespage-middlecolumn{

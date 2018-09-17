@@ -6,6 +6,7 @@ import './ImportPage.css'
 
 import check_icon from 'images/check_icon.svg';
 import importpage_icon from 'images/importpage_icon.svg';
+import bgslogo from 'images/BorderGroupServices.png';
 
 class ImportPage extends React.Component{
 
@@ -23,11 +24,12 @@ class ImportPage extends React.Component{
 
                         <div className="importpage-leftcolumn">
 
+                            <h1 className="blank_header"> </h1>
+
                             <div className="import-leftlist">
 
 
                                 <ul>
-                                    <li className="empty_space"> &#8203; </li>
                                     <li> <img src={check_icon} /> Entry Clearance </li>
                                     <li> <img src={check_icon} /> FDAT Transmission of Information</li>
                                     <li> <img src={check_icon} /> Electronic Filing to F&WL </li>
@@ -43,7 +45,7 @@ class ImportPage extends React.Component{
 
                             <h1 className="importpage-title"> Import Process </h1>
                             <hr className="title_hr"/>
-                            <img src={importpage_icon} />
+                            <img src={bgslogo} />
 
 
 
@@ -51,10 +53,11 @@ class ImportPage extends React.Component{
 
                         <div className="importpage-rightcolumn">
 
+                            <h1 className="blank_header"> </h1>
+
                             <div className="import-rightlist">
 
                                 <ul>
-                                    <li className="empty_space"> &#8203;</li>
                                     <li> <img src={check_icon} /> Hazmat Entry Process  </li>
                                     <li> <img src={check_icon} /> e-Manifest </li>
                                     <li> <img src={check_icon} /> Reconciliations </li>
