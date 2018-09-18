@@ -43,18 +43,25 @@
     height: 75px;
     cursor: pointer;
     padding-right: 10px;
+    transition: all 0.5s linear;
 
 }
 
 .listelement{
     display: flex;
     align-items: center;
-    transition: all 0.2s linear;
+    padding-right: 10%;
+    transition: all 0.5s linear;
 }
 
-.listelement:hover {
-    transition: all 0.25s linear;
-    transform: translateX(15%);
+.listelement img:hover {
+    transition: all 0.5s linear;
+    transform: scale(1.25) rotate(360deg);
+}
+
+.listelement:hover{
+    transition: all 0.5s linear;
+    transform: scale(1.2);
 }
 
 .servicespage-middlecolumn{
@@ -128,6 +135,7 @@
     height: 75px;
     cursor: pointer;
     padding-right: 10px;
+    transition: all 0.5s linear;
 
 }
 

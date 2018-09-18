@@ -69,7 +69,6 @@ class Services extends React.Component {
 
 
                         <ul className="leftlist">
-
                             <li> <p className="listelement"> <Link to="/importpage"> <img src={import_icon} /> </Link> Import Process </p> </li>
                             <li> <p className="listelement"> <img src={export_icon} /> Export Process </p> </li>
                             <li> <p className="listelement"> <img src={custom_icon} /> Custom Consulting </p> </li>
@@ -88,7 +87,6 @@ class Services extends React.Component {
                         <img src={bgslogo} />
 
                         <h1> Welcome </h1>
-
                         <hr className="title_hr"/>
 
                         <p className="p_welcome">We are located in both sides of the Otay Mesa border
@@ -97,12 +95,10 @@ class Services extends React.Component {
                             services and Personalized Customer Services.
                         </p>
 
-                        <hr className="title_hr"/>
 
+                        <hr className="title_hr"/>
                         <p className="usalogo"> <img src={usalogo} /> (619) 710-2504 </p>
                         <p className="mexlogo"> <img src={mexlogo} /> (664) 383-3430 </p>
-
-
                     </div>
 
                     <div className="servicespage-rightcolumn">
@@ -119,7 +115,6 @@ class Services extends React.Component {
                         </ul>
 
                     </div>
-
                 </div>
                 <Footer/>
             </div>
