@@ -70,7 +70,7 @@ class Services extends React.Component {
 
                         <ul className="leftlist">
                             <li> <p className="listelement"> <Link to="/importpage"> <img src={import_icon} /> </Link> Import Process </p> </li>
-                            <li> <p className="listelement"> <img src={export_icon} /> Export Process </p> </li>
+                            <li> <p className="listelement"> <Link to="/exportpage"> <img src={export_icon} /> </Link>Export Process </p> </li>
                             <li> <p className="listelement"> <img src={custom_icon} /> Custom Consulting </p> </li>
                             <li> <p className="listelement"> <img src={warehouse_icon} /> Warehouse </p></li>
                             <li> <p className="listelement"> <img src={forms_icon} /> Forms </p></li>

@@ -50,7 +50,6 @@
 .listelement{
     display: flex;
     align-items: center;
-    padding-right: 10%;
     transition: all 0.5s linear;
 }
 
@@ -61,7 +60,7 @@
 
 .listelement:hover{
     transition: all 0.5s linear;
-    transform: scale(1.2);
+    transform: translateY(-15%);
 }
 
 .servicespage-middlecolumn{

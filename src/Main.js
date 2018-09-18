@@ -10,6 +10,7 @@ import About from "./navigationbar/About";
 import Contact from "./navigationbar/Contact";
 import Homepage from "./homepage/Homepage";
 import ImportPage from "./services/ImportPage";
+import ExportPage from "./services/ExportPage";
 
 
 const Main = () => (
@@ -23,6 +24,7 @@ const Main = () => (
 
 
                         <Route path='/importpage' component={ImportPage}/>
+                        <Route path='/exportpage' component={ExportPage}/>
 
 
                     </TransitionSwitch>

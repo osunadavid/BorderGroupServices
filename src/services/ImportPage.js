@@ -5,7 +5,6 @@ import Footer from "../footer/Footer";
 import './ImportPage.css'
 
 import check_icon from 'images/check_icon.svg';
-import importpage_icon from 'images/importpage_icon.svg';
 import bgslogo from 'images/BorderGroupServices.png';
 
 class ImportPage extends React.Component{
@@ -24,7 +23,8 @@ class ImportPage extends React.Component{
 
                         <div className="importpage-leftcolumn">
 
-                            <h1 className="blank_header"> </h1>
+                            <h1 className="blank_header"> Services  </h1>
+                            <hr className="title_hr"/>
 
                             <div className="import-leftlist">
 
@@ -53,7 +53,8 @@ class ImportPage extends React.Component{
 
                         <div className="importpage-rightcolumn">
 
-                            <h1 className="blank_header"> </h1>
+                            <h1 className="blank_header"> Services </h1>
+                            <hr className="title_hr2"/>
 
                             <div className="import-rightlist">
 
