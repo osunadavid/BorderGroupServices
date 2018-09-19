@@ -69,11 +69,11 @@ class Services extends React.Component {
 
 
                         <ul className="leftlist">
-                            <li> <p className="listelement"> <Link to="/importpage"> <img src={import_icon} /> </Link> Import Process </p> </li>
-                            <li> <p className="listelement"> <Link to="/exportpage"> <img src={export_icon} /> </Link>Export Process </p> </li>
-                            <li> <p className="listelement"> <img src={custom_icon} /> Custom Consulting </p> </li>
-                            <li> <p className="listelement"> <img src={warehouse_icon} /> Warehouse </p></li>
-                            <li> <p className="listelement"> <img src={forms_icon} /> Forms </p></li>
+                            <li> <p className="listelement"> <Link to='/importpage'> <img src={import_icon} /> </Link> Import Process </p> </li>
+                            <li> <p className="listelement"> <Link to='/exportpage'> <img src={export_icon} /> </Link> Export Process </p> </li>
+                            <li> <p className="listelement"> <Link to='/customspage'> <img src={custom_icon} /> </Link> Custom Consulting </p> </li>
+                            <li> <p className="listelement"> <Link to='/warehousepage'> <img src={warehouse_icon} /> </Link> Warehouse </p></li>
+                            <li> <p className="listelement"> <Link to='/formspage'> <img src={forms_icon} /> </Link> Forms </p></li>
 
                         </ul>
 
@@ -111,7 +111,7 @@ class Services extends React.Component {
                             <li><p className="listelement"> <img src={inventory_icon} onClick={this.onInventoryButton} /> Inventory </p> </li>
                             <li><p className="listelement"> <img src={border_icon} onClick={this.onBorderTimesButton} /> Border Wait Times  </p></li>
                             <li><p className="listelement"> <img src={certified_icon} onClick={this.onCTPADButton} /> C-TPAD Certified </p></li>
-                            <li><p className="listelement"> <img src={links_icon} /> Links </p></li>
+                            <li><p className="listelement"> <Link to='/linkspage'><img src={links_icon} /> </Link> Links </p></li>
                         </ul>
 
                     </div>
