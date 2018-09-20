@@ -32,6 +32,22 @@
     width:33%
 }
 
+.exportpage-leftlist{
+    font-size: 3vh;
+}
+
+.exportpage-leftlist li{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.exportpage-leftlist img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
 .exportpage-middlecolumn{
 
     display: flex;
@@ -42,6 +58,11 @@
     width:33%
 }
 
+.exportpage-middlecolumn img{
+    height: 300px;
+    width: 275px;
+}
+
 .exportpage-rightcolumn{
 
     display: flex;
@@ -50,4 +71,132 @@
     align-items: center;
     flex: 1;
     width:33%
+}
+
+
+.exportpage-rightlist{
+    font-size: 3vh;
+}
+
+.exportpage-rightlist li{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.exportpage-rightlist img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.exportpage-text{
+    font-size: 2vh;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+@media (max-width: 450px){
+
+    .exportpage-body {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .exportpage-body .exportpage-middlecolumn {
+        order: 1;
+    }
+
+    .exportpage-body .exportpage-leftcolumn {
+        order: 2;
+    }
+
+    .exportpage-body .exportpage-rightcolumn {
+        order: 3;
+    }
+
+    .exportpage-middlecolumn {
+        width: 100%;
+    }
+
+    .exportpage-leftcolumn {
+        width: 100%;
+    }
+
+    .exportpage-rightcolumn {
+        width: 100%;
+
+    }
+
+    .exportpage-rightcolumn .title_hr{
+        display: none;
+    }
+
+    .exportpage-rightlist {
+        width: 100%;
+    }
+
+    .exportpage-rightlist ul{
+        margin-top: 0;
+    }
+
+    .exportpage-leftlist ul{
+        margin-bottom: 0;
+    }
+
+    .exportpage-leftlist li{
+        padding-right: 10%;
+    }
+
+
+}
+
+    @media (min-width: 451px) and (max-width:800px) {
+
+    .exportpage-body {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .exportpage-body .exportpage-middlecolumn {
+        order: 1;
+    }
+
+    .exportpage-body .exportpage-leftcolumn {
+        order: 2;
+    }
+
+    .exportpage-body .exportpage-rightcolumn {
+        order: 3;
+    }
+
+    .exportpage-middlecolumn {
+        width: 100%;
+    }
+
+    .exportpage-leftcolumn {
+        width: 100%;
+    }
+
+    .exportpage-rightcolumn {
+        width: 100%;
+
+    }
+
+    .exportpage-rightcolumn .title_hr{
+        display: none;
+    }
+
+    .exportpage-rightlist {
+        width: 100%;
+    }
+
+    .exportpage-rightlist ul{
+        margin-top: 0;
+    }
+
+    .exportpage-leftlist ul{
+        margin-bottom: 0;
+    }
 }

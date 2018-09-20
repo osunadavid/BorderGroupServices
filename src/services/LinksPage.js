@@ -100,9 +100,10 @@ class LinksPage extends React.Component{
 
                         <p className="linkspage-text">
 
-                            These are the pivotal links to help faciliate your business needs.
+                            These are the pivotal links to help facilitate your business needs.
 
                         </p>
+                        <hr className="title_hr"/>
 
 
                     </div>

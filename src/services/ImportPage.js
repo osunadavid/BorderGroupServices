@@ -23,7 +23,7 @@ class ImportPage extends React.Component{
 
                         <div className="importpage-leftcolumn">
 
-                            <h1 className="blank_header"> Services  </h1>
+                            <h1> Services  </h1>
                             <hr className="title_hr"/>
 
                             <div className="import-leftlist">
@@ -46,6 +46,14 @@ class ImportPage extends React.Component{
                             <h1 className="importpage-title"> Import Process </h1>
                             <hr className="title_hr"/>
                             <img src={bgslogo} />
+
+                            <hr className="title_hr"/>
+                            <p className="importpage-text">
+                                These are the following improt processes we offer assistance with. Please feel free to
+                                contact us for more information or any other inquiries.
+                            </p>
+                            <hr className="title_hr"/>
+
 
 
 
