@@ -160,21 +160,6 @@
         margin-bottom: 0;
     }
 
-    .import-leftlist img{
-        width: 35px;
-        height: 35px;
-        padding-right: 10px;
-        padding-bottom: 5px;
-
-    }
-
-    .import-rightlist img{
-        width: 35px;
-        height: 35px;
-        padding-right: 10px;
-        padding-bottom: 5px;
-
-    }
 }
 
 @media (min-width: 451px) and (max-width:800px) {

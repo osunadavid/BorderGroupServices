@@ -110,7 +110,7 @@ class LinksPage extends React.Component{
 
                     <div className="linkspage-rightcolumn">
 
-                        <h1> Links </h1>
+                        <h1 className="secondlink"> Links </h1>
                         <hr className="title_hr"/>
 
                         <div className="linkspage-rightlist">
