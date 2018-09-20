@@ -32,6 +32,29 @@
     width:33%
 }
 
+
+.warehousepage-leftlist{
+    font-size: 3vh;
+}
+
+.warehousepage-leftlist li{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.warehousepage-leftlist img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.warehousepage-leftcolumn img{
+    height: 50px;
+    width: 50px;
+    padding-right: 10px;
+}
+
 .warehousepage-middlecolumn{
 
     display: flex;
@@ -40,4 +63,141 @@
     flex-direction: column;
     flex: 1;
     width:33%
+}
+
+.warehousepage-middlecolumn img{
+
+    height: 300px;
+    width: 275px;
+}
+
+.warehousepage-rightcolumn{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    width:33%
+}
+
+.warehousepage-rightlist{
+    font-size: 3vh;
+}
+
+.warehousepage-rightlist li{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.warehousepage-rightlist img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.warehousepage-text{
+    font-size: 2vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+@media (max-width: 450px){
+    .warehousepage-body {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .warehousepage-body .warehousepage-middlecolumn {
+        order: 1;
+    }
+
+    .warehousepage-body .warehousepage-leftcolumn {
+        order: 2;
+    }
+
+    .warehousepage-body .warehousepage-rightcolumn {
+        order: 3;
+    }
+
+    .warehousepage-middlecolumn {
+        width: 100%;
+    }
+
+    .warehousepage-leftcolumn {
+        width: 100%;
+    }
+
+    .warehousepage-rightcolumn {
+        width: 100%;
+
+    }
+
+    .warehousepage-rightcolumn .title_hr{
+        display: none;
+    }
+
+    .warehousepage-leftlist ul{
+        margin-bottom: 0;
+    }
+
+    .warehousepage-rightlist ul{
+        margin-top: 0;
+    }
+    .warehousepage-leftlist li{
+        margin-top: 20px;
+        padding-right: 10px;
+    }
+
+    .warehousepage-rightlist li{
+        margin-top: 20px;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 451px) and (max-width:800px) {
+
+    .warehousepage-body {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .warehousepage-body .warehousepage-middlecolumn {
+        order: 1;
+    }
+
+    .warehousepage-body .warehousepage-leftcolumn {
+        order: 2;
+    }
+
+    .warehousepage-body .warehousepage-rightcolumn {
+        order: 3;
+    }
+
+    .warehousepage-middlecolumn {
+        width: 100%;
+    }
+
+    .warehousepage-leftcolumn {
+        width: 100%;
+    }
+
+    .warehousepage-rightcolumn {
+        width: 100%;
+
+    }
+
+    .warehousepage-rightcolumn .title_hr{
+        display: none;
+    }
+
+    .warehousepage-leftlist ul{
+        margin-bottom: 0;
+    }
+
+    .warehousepage-rightlist ul{
+        margin-top: 0;
+    }
 }

@@ -19,7 +19,7 @@ import LinksPage from "./services/LinksPage";
 
 const Main = () => (
             <main>
-                <Router>
+                <Router basename ="BorderGroupServices">
 
                     <TransitionSwitch component={Fader}>
 
