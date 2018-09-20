@@ -49,7 +49,7 @@ class ImportPage extends React.Component{
 
                             <hr className="title_hr"/>
                             <p className="importpage-text">
-                                These are the following improt processes we offer assistance with. Please feel free to
+                                These are the following import processes we offer assistance with. Please feel free to
                                 contact us for more information or any other inquiries.
                             </p>
                             <hr className="title_hr"/>

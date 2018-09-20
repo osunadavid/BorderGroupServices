@@ -18,7 +18,7 @@
 }
 
 
-.cutomspage-body ul{
+.customspage-body ul{
     list-style: none;
 }
 
@@ -32,6 +32,22 @@
     width:33%
 }
 
+.customspage-leftlist{
+    font-size: 3vh;
+}
+
+.customspage-leftlist li{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.customspage-leftlist img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
 .customspage-middlecolumn{
 
     display: flex;
@@ -40,6 +56,11 @@
     flex-direction: column;
     flex: 1;
     width:33%
+}
+
+.customspage-middlecolumn img{
+    height: 300px;
+    width: 275px;
 }
 
 
@@ -51,4 +72,128 @@
     align-items: center;
     flex: 1;
     width:33%
+}
+
+.customspage-rightlist{
+    font-size: 3vh;
+}
+
+.customspage-rightlist li{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.customspage-rightlist img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.custompage-text{
+    font-size: 2vh;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+}
+
+@media (max-width: 450px){
+
+    .customspage-body {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .customspage-body .customspage-middlecolumn {
+        order: 1;
+    }
+
+    .customspage-body .customspage-leftcolumn {
+        order: 2;
+    }
+
+    .customspage-body .customspage-rightcolumn {
+        order: 3;
+    }
+
+    .customspage-middlecolumn {
+        width: 100%;
+    }
+
+    .customspage-leftcolumn {
+        width: 100%;
+    }
+
+    .customspage-rightcolumn {
+        width: 100%;
+
+    }
+
+    .customspage-leftlist{
+        width: 100%
+    }
+
+    .customspage-leftlist li{
+        margin-top: 10px;
+    }
+
+    .customspage-rightlist li{
+
+        margin-top: 10px;
+    }
+
+    .customspage-leftlist ul{
+        margin-bottom: 0;
+    }
+
+    .customspage-rightlist ul{
+        margin-top: 0;
+    }
+
+    .customspage-rightcolumn .title_hr{
+        display: none;
+    }
+
+
+
+}
+
+@media (min-width: 451px) and (max-width:800px) {
+
+    .customspage-body {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .customspage-body .customspage-middlecolumn {
+        order: 1;
+    }
+
+    .customspage-body .customspage-leftcolumn {
+        order: 2;
+    }
+
+    .customspage-body .customspage-rightcolumn {
+        order: 3;
+    }
+
+    .customspage-middlecolumn {
+        width: 100%;
+    }
+
+    .customspage-leftcolumn {
+        width: 100%;
+    }
+
+    .customspage-rightcolumn {
+        width: 100%;
+
+    }
+
+    .customspage-rightcolumn .title_hr{
+        display: none;
+    }
+
+
+
 }
