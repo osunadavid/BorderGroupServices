@@ -22,6 +22,10 @@ class LinksPage extends React.Component{
         super(props);
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
     onDFAButtonLink(e){
         var newTab = window.open(DFAIMPORT_LINK, "_blank");
         newTab.focus();

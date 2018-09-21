@@ -31,6 +31,10 @@ class Services extends React.Component {
         super(props)
     }
 
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
+
 
     onTrackingButton(e){
         const newTab = window.open(TRACKING_LINK,'_blank');

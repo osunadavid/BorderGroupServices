@@ -19,9 +19,13 @@ import LinksPage from "./services/LinksPage";
 
 const Main = () => (
             <main>
-                <Router basename ="BorderGroupServices">
+                <Router onUpdate={() => window.scrollTo(0, 0)} basename ="BorderGroupServices">
+
+
 
                     <TransitionSwitch component={Fader}>
+
+
 
                         <Route exact path='/' component={Homepage}/>
                         <Route path='/about' component={About} />
@@ -37,6 +41,7 @@ const Main = () => (
 
 
                     </TransitionSwitch>
+
 
                 </Router>
             </main>
